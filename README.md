@@ -22,6 +22,7 @@ V1<br>
 >readme.md<br>
 
 ### 运行
+#### 人脸1v1
 ```
 cd GZT_TEST/VERSION_1/example/
 ./run.sh
@@ -29,6 +30,9 @@ cd GZT_TEST/VERSION_1/example/
 或者
 ./demo ../model/mergeModel_28/
 ```
-
-
-
+#### 活体检测
+```
+cd GZT_TEST/VERSION_1/example/tmp/
+./run.sh
+./demo ../../model/mergeModel_40/
+```
